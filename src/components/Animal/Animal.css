@@ -1,0 +1,69 @@
+
+
+.App {
+  text-align: center;
+}
+
+.animal-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px; 
+  transition: transform 0.3s ease-in-out;
+}
+
+.animal-container:hover {
+  transform: scale(1.02);
+}
+
+.animal-card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  width: 250px; 
+  height: 400px; 
+  box-sizing: border-box;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: flex; 
+  flex-direction: column; 
+  justify-content: space-between; 
+}
+
+.animal-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+}
+
+.animal-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 5px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.animal-card:hover img {
+  transform: scale(1.05);
+}
+
+.animal-info {
+  flex-grow: 1; /* Allow the content to grow and take available space */
+  text-align: left;
+}
+
+.animal-info h2 {
+  margin-bottom: 5px;
+}
+
+.animal-info p {
+  margin: 5px 0;
+  overflow: hidden; /* Hide overflowing content */
+  text-overflow: ellipsis; /* Show ellipsis for overflowing content */
+  white-space: nowrap; /* Prevent wrapping */
+}
+
+.ani {
+  margin-top: 35px;
+  margin-bottom: 35px;
+}

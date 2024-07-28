@@ -1,0 +1,33 @@
+
+.container123 {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: #f0f8ea; 
+  margin-bottom: 20px;
+}
+
+.text-center {
+  font-size: 2.5rem;
+  color: #228b22;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #6b8e23; 
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+p.lead123 {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: #3d8b37;
+  margin-bottom: 20px;
+}
+.container123 {
+  transition: transform 0.3s ease-in-out;
+}
+
+.container123:hover {
+  transform: scale(1.02);
+}

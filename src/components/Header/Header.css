@@ -1,0 +1,29 @@
+
+header {
+    background-color: #284125; 
+    height: 100px;
+  }
+
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #344e41;
+    height: 100%;
+  }
+  
+  h2 {
+    color: rgb(30, 49, 31); 
+  }
+ 
+  .nav-link {
+    color: white; 
+    text-decoration: none; 
+    padding: 0.5rem 1rem; 
+  }
+  
+  .nav-link.active {
+    font-weight: bold; 
+  }
+  
+ 
